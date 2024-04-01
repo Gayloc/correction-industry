@@ -1,0 +1,20 @@
+﻿rebuild_lingbei_province_decision = {
+    is_shown = {
+        this = c:CHI
+    }
+
+    posible = {
+        country_has_primary_culture = cu:manchu
+    }
+
+    when_taken = {
+        set_variable = { 
+                name = rebuild_lingbei_province_decision_taken
+                value =  yes
+            }
+    }
+
+    ai_chance = {
+        base = 20
+    }
+}
