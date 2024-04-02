@@ -1,17 +1,23 @@
 ﻿rebuild_lingbei_province_decision = {
     is_shown = {
         this = c:CHI
+        country_rank = rank_value:great_power
+        NOT = {has_variable = rebuild_lingbei_province_decision_taken}
     }
 
     posible = {
-        country_has_primary_culture = cu:manchu
+        NOT = {country_has_primary_culture = cu:manchu}
     }
 
     when_taken = {
+        trigger_event = {
+			id = rebuild_lingbei_province_event.1
+			popup = yes
+		}
         set_variable = { 
-                name = rebuild_lingbei_province_decision_taken
-                value =  yes
-            }
+            name = rebuild_lingbei_province_decision_taken
+            value =  yes
+        }
     }
 
     ai_chance = {
