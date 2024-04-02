@@ -5,7 +5,7 @@
         NOT = {has_variable = rebuild_lingbei_province_decision_taken}
     }
 
-    posible = {
+    possible = {
         NOT = {country_has_primary_culture = cu:manchu}
     }
 
