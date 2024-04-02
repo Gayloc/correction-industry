@@ -6,3 +6,7 @@
  rebuild_lingbei_province_event.1.d: "重建岭北行省desc"
  rebuild_lingbei_province_event.1.f: "重建岭北行省flavor"
  rebuild_lingbei_province_event.1.a: "把老毛子赶出亚洲！"
+ yellow_peril_event.1.t: "黄祸"
+ yellow_peril_event.1.d: "黄祸desc"
+ yellow_peril_event.1.f: "黄祸flavor"
+ yellow_peril_event.1.a: "糟糕"

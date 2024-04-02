@@ -1,0 +1,23 @@
+﻿namespace = yellow_peril_event
+
+yellow_peril_event.1 = {
+    type = country_event
+    placement = root
+
+    title = yellow_peril_event.1.t
+    desc = yellow_peril_event.1.d
+    flavor = yellow_peril_event.1.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+        name = yellow_peril_event.1.a
+        default_option = yes
+    }
+}

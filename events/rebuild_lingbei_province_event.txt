@@ -1,4 +1,4 @@
-namespace = rebuild_lingbei_province_event
+﻿namespace = rebuild_lingbei_province_event
 
 rebuild_lingbei_province_event.1 = {
     type = country_event
@@ -19,5 +19,12 @@ rebuild_lingbei_province_event.1 = {
     option = {
 		name = rebuild_lingbei_province_event.1.a
 		default_option = yes
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.1
+			    popup = yes
+		    }
+        }
 	}
 }

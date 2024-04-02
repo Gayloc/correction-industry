@@ -14,6 +14,7 @@
 			id = rebuild_lingbei_province_event.1
 			popup = yes
 		}
+        
         set_variable = { 
             name = rebuild_lingbei_province_decision_taken
             value =  yes
