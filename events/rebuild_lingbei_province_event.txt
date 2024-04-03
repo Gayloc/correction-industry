@@ -20,6 +20,10 @@ rebuild_lingbei_province_event.1 = {
 		name = rebuild_lingbei_province_event.1.a
 		default_option = yes
 
+        add_journal_entry = {
+            type = rebuild_lingbei_province 
+        }
+
         c:RUS = {
             trigger_event = {
 			    id = yellow_peril_event.1
@@ -46,5 +50,49 @@ rebuild_lingbei_province_event.1 = {
         s:STATE_TOMSK = {
             add_claim = c:CHI
         }
+	}
+}
+
+rebuild_lingbei_province_event.2 = {
+    type = country_event
+    placement = root
+
+    title = rebuild_lingbei_province_event.2.t
+    desc = rebuild_lingbei_province_event.2.d
+    flavor = rebuild_lingbei_province_event.2.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+		name = rebuild_lingbei_province_event.2.a
+		default_option = yes
+	}
+}
+
+rebuild_lingbei_province_event.3 = {
+    type = country_event
+    placement = root
+
+    title = rebuild_lingbei_province_event.3.t
+    desc = rebuild_lingbei_province_event.3.d
+    flavor = rebuild_lingbei_province_event.3.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+		name = rebuild_lingbei_province_event.3.a
+		default_option = yes
 	}
 }
