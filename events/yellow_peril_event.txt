@@ -20,7 +20,7 @@ yellow_peril_event.1 = {
         name = yellow_peril_event.1.a
         default_option = yes
         add_modifier = {
-            naem = yellow_peril_modifier
+            name = yellow_peril_modifier
         }
     }
 }
