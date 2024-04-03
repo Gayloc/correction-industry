@@ -26,5 +26,25 @@ rebuild_lingbei_province_event.1 = {
 			    popup = yes
 		    }
         }
+
+        s:STATE_TRANS_BAIKAL = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_YAKUTSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_UPPER_YENISEYSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_IRKUTSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_TOMSK = {
+            add_claim = c:CHI
+        }
 	}
 }
