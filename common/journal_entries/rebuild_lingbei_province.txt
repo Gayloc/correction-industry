@@ -1,0 +1,30 @@
+﻿rebuild_lingbei_province = {
+    icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+    group = je_group_historical_content
+
+    complete = {
+        c:CHI = {
+            country_or_subject_owns_entire_state_region = STATE_TRANS_BAIKAL
+            country_or_subject_owns_entire_state_region = STATE_YAKUTSK
+            country_or_subject_owns_entire_state_region = STATE_UPPER_YENISEYSK
+            country_or_subject_owns_entire_state_region = STATE_IRKUTSK
+            country_or_subject_owns_entire_state_region = STATE_TOMSK
+        }
+    }
+
+    on_complete = {
+        trigger_event = {
+            id = rebuild_lingbei_province_event.2
+        }
+    }
+
+    timeout = 3650
+    on_timeout = {
+        trigger_event = {
+            id = rebuild_lingbei_province_event.3
+        }
+    }
+
+    should_be_pinned_by_default = yes
+}
