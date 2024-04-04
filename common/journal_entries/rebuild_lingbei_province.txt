@@ -1,6 +1,7 @@
 ﻿rebuild_lingbei_province = {
-    root = c:CHI
     icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+    group = je_group_historical_content
 
     complete = {
         c:CHI = {
@@ -10,10 +11,6 @@
             country_or_subject_owns_entire_state_region = STATE_IRKUTSK
             country_or_subject_owns_entire_state_region = STATE_TOMSK
         }
-    }
-
-    custom_tooltip = {
-        text = rebuild_lingbei_province_je_goal_text
     }
 
     on_complete = {

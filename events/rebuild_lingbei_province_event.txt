@@ -21,7 +21,8 @@ rebuild_lingbei_province_event.1 = {
 		default_option = yes
 
         add_journal_entry = {
-            type = rebuild_lingbei_province 
+            type = rebuild_lingbei_province
+            target = c:CHI
         }
 
         c:RUS = {
