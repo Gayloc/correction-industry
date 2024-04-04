@@ -21,7 +21,6 @@ yellow_peril_event.1 = {
         default_option = yes
         add_modifier = {
             name = yellow_peril_modifier
-            months = 120
         }
     }
 }

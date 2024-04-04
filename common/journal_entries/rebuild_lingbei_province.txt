@@ -31,6 +31,26 @@
 			    popup = yes
 		    }
         }
+
+        s:STATE_TRANS_BAIKAL = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_YAKUTSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_UPPER_YENISEYSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_IRKUTSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_TOMSK = {
+            remove_claim = c:CHI
+        }
     }
 
     should_be_pinned_by_default = yes

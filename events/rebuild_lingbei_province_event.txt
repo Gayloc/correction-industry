@@ -32,6 +32,12 @@ rebuild_lingbei_province_event.1 = {
 		    }
         }
 
+        change_relations = {
+			country = c:RUS
+			value = -50
+		}
+
+
         s:STATE_TRANS_BAIKAL = {
             add_claim = c:CHI
         }
