@@ -24,6 +24,13 @@
         trigger_event = {
             id = rebuild_lingbei_province_event.3
         }
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.2
+			    popup = yes
+		    }
+        }
     }
 
     should_be_pinned_by_default = yes
