@@ -74,6 +74,14 @@ rebuild_lingbei_province_event.2 = {
 		name = rebuild_lingbei_province_event.2.a
 		default_option = yes
 	}
+
+    option = {
+		name = rebuild_lingbei_province_event.2.b
+	}
+
+    option = {
+		name = rebuild_lingbei_province_event.2.c
+	}
 }
 
 rebuild_lingbei_province_event.3 = {
