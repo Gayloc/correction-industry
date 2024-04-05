@@ -1,0 +1,55 @@
+﻿namespace = rebuild_liaoyang_province_event
+
+rebuild_liaoyang_province_event.1 = {
+     type = country_event
+    placement = root
+
+    title = rebuild_liaoyang_province_event.1.t
+    desc = rebuild_liaoyang_province_event.1.d
+    flavor = rebuild_liaoyang_province_event.1.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+        name = rebuild_liaoyang_province_event.1.a
+    }
+}
+
+rebuild_liaoyang_province_event.2 = {
+    type = country_event
+    placement = root
+
+    title = rebuild_liaoyang_province_event.2.t
+    desc = rebuild_liaoyang_province_event.2.d
+    flavor = rebuild_liaoyang_province_event.2.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+        name = rebuild_liaoyang_province_event.2.a
+
+        s:STATE_KAMCHATKA = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_OKHOTSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_CHUKOTKA = {
+            remove_claim = c:CHI
+        }
+    }
+}

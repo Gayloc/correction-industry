@@ -83,6 +83,21 @@ rebuild_lingbei_province_event.2 = {
 
     option = {
 		name = rebuild_lingbei_province_event.2.b
+        s:STATE_KAMCHATKA = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_OKHOTSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_CHUKOTKA = {
+            add_claim = c:CHI
+        }
+        add_journal_entry = {
+            type = rebuild_liaoyang_province
+            target = c:CHI
+        }
 	}
 
     option = {
@@ -109,5 +124,25 @@ rebuild_lingbei_province_event.3 = {
     option = {
 		name = rebuild_lingbei_province_event.3.a
 		default_option = yes
+
+        s:STATE_TRANS_BAIKAL = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_YAKUTSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_UPPER_YENISEYSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_IRKUTSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_TOMSK = {
+            remove_claim = c:CHI
+        }
 	}
 }

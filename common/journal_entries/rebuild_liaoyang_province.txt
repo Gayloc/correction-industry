@@ -1,0 +1,35 @@
+﻿rebuild_liaoyang_province = {
+    icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+    group = je_group_historical_content
+
+    complete = {
+        c:CHI = {
+            country_or_subject_owns_entire_state_region = STATE_KAMCHATKA
+            country_or_subject_owns_entire_state_region = STATE_OKHOTSK
+            country_or_subject_owns_entire_state_region = STATE_CHUKOTKA
+        }
+    }
+
+    on_complete = {
+        trigger_event = {
+            id = rebuild_liaoyang_province_event.1
+        }
+    }
+
+    timeout = 3650
+    on_timeout = {
+        trigger_event = {
+            id = rebuild_liaoyang_province_event.2
+        }
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.2
+			    popup = yes
+		    }
+        }
+    }
+
+    should_be_pinned_by_default = yes
+}
