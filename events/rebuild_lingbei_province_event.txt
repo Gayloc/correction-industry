@@ -95,7 +95,7 @@ rebuild_lingbei_province_event.2 = {
             add_claim = c:CHI
         }
         add_journal_entry = {
-            type = rebuild_liaoyang_province
+            type = rebuild_liaodong_province
             target = c:CHI
         }
 	}

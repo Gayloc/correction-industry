@@ -1,4 +1,4 @@
-﻿rebuild_liaoyang_province = {
+﻿rebuild_liaodong_province = {
     icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
     group = je_group_historical_content
@@ -13,14 +13,14 @@
 
     on_complete = {
         trigger_event = {
-            id = rebuild_liaoyang_province_event.1
+            id = rebuild_liaodong_province_event.1
         }
     }
 
     timeout = 3650
     on_timeout = {
         trigger_event = {
-            id = rebuild_liaoyang_province_event.2
+            id = rebuild_liaodong_province_event.2
         }
 
         c:RUS = {

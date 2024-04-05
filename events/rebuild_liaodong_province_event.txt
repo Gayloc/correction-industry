@@ -1,12 +1,12 @@
-﻿namespace = rebuild_liaoyang_province_event
+﻿namespace = rebuild_liaodong_province_event
 
-rebuild_liaoyang_province_event.1 = {
+rebuild_liaodong_province_event.1 = {
      type = country_event
     placement = root
 
-    title = rebuild_liaoyang_province_event.1.t
-    desc = rebuild_liaoyang_province_event.1.d
-    flavor = rebuild_liaoyang_province_event.1.f
+    title = rebuild_liaodong_province_event.1.t
+    desc = rebuild_liaodong_province_event.1.d
+    flavor = rebuild_liaodong_province_event.1.f
 
     event_image = {
         video = "europenorthamerica_springtime_of_nations"
@@ -17,17 +17,17 @@ rebuild_liaoyang_province_event.1 = {
 	duration = 3
 
     option = {
-        name = rebuild_liaoyang_province_event.1.a
+        name = rebuild_liaodong_province_event.1.a
     }
 }
 
-rebuild_liaoyang_province_event.2 = {
+rebuild_liaodong_province_event.2 = {
     type = country_event
     placement = root
 
-    title = rebuild_liaoyang_province_event.2.t
-    desc = rebuild_liaoyang_province_event.2.d
-    flavor = rebuild_liaoyang_province_event.2.f
+    title = rebuild_liaodong_province_event.2.t
+    desc = rebuild_liaodong_province_event.2.d
+    flavor = rebuild_liaodong_province_event.2.f
 
     event_image = {
         video = "europenorthamerica_springtime_of_nations"
@@ -38,7 +38,7 @@ rebuild_liaoyang_province_event.2 = {
 	duration = 3
 
     option = {
-        name = rebuild_liaoyang_province_event.2.a
+        name = rebuild_liaodong_province_event.2.a
 
         s:STATE_KAMCHATKA = {
             remove_claim = c:CHI
