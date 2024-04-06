@@ -1,37 +1,12 @@
-﻿namespace = rebuild_liaodong_province_event
+﻿namespace = northern_asia_war_event
 
-rebuild_liaodong_province_event.1 = {
-     type = country_event
-    placement = root
-
-    title = rebuild_liaodong_province_event.1.t
-    desc = rebuild_liaodong_province_event.1.d
-    flavor = rebuild_liaodong_province_event.1.f
-
-    event_image = {
-        video = "europenorthamerica_springtime_of_nations"
-    }
-
-    icon = "gfx/interface/icons/event_icons/event_default.dds"
-	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	duration = 3
-
-    option = {
-        name = rebuild_liaodong_province_event.1.a
-    }
-
-    option = {
-        name = rebuild_liaodong_province_event.1.b
-    }
-}
-
-rebuild_liaodong_province_event.2 = {
+northern_asia_war_event.1 = {
     type = country_event
     placement = root
 
-    title = rebuild_liaodong_province_event.2.t
-    desc = rebuild_liaodong_province_event.2.d
-    flavor = rebuild_liaodong_province_event.2.f
+    title = northern_asia_war_event.1.t
+    desc = northern_asia_war_event.1.d
+    flavor = northern_asia_war_event.1.f
 
     event_image = {
         video = "europenorthamerica_springtime_of_nations"
@@ -42,17 +17,46 @@ rebuild_liaodong_province_event.2 = {
 	duration = 3
 
     option = {
-        name = rebuild_liaodong_province_event.2.a
+        name = northern_asia_war_event.1.a
+    }
+}
 
-        s:STATE_KAMCHATKA = {
+northern_asia_war_event.2 = {
+    type = country_event
+    placement = root
+
+    title = northern_asia_war_event.2.t
+    desc = northern_asia_war_event.2.d
+    flavor = northern_asia_war_event.2.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+        name = northern_asia_war_event.2.a
+
+        s:STATE_OB = {
             remove_claim = c:CHI
         }
 
-        s:STATE_OKHOTSK = {
+        s:STATE_TOBOLSK = {
             remove_claim = c:CHI
         }
 
-        s:STATE_CHUKOTKA = {
+        s:STATE_URAL = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_AKMOLINSK = {
+            remove_claim = c:CHI
+        }
+
+        s:STATE_SEMIRECHE = {
             remove_claim = c:CHI
         }
     }

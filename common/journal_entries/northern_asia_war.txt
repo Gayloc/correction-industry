@@ -1,0 +1,37 @@
+﻿northern_asia_war = {
+    icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+    group = je_group_historical_content
+
+    complete = {
+        c:CHI = {
+            country_or_subject_owns_entire_state_region = STATE_OB
+            country_or_subject_owns_entire_state_region = STATE_TOBOLSK
+            country_or_subject_owns_entire_state_region = STATE_URAL
+            country_or_subject_owns_entire_state_region = STATE_AKMOLINSK
+            country_or_subject_owns_entire_state_region = STATE_SEMIRECHE
+        }
+    }
+
+    on_complete = {
+        trigger_event = {
+            id = northern_asia_war_event.1
+        }
+    }
+
+    timeout = 3650
+    on_timeout = {
+        trigger_event = {
+            id = rebuild_liaodong_province_event.2
+        }
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.2
+			    popup = yes
+		    }
+        }
+    }
+
+    should_be_pinned_by_default = yes
+}
