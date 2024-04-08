@@ -41,13 +41,6 @@ yellow_peril_event.2 = {
 	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	duration = 3
 
-    trigger = {
-        c:CHI = {
-            has_varible = northern_asia_war_winner
-            has_varible = rebuild_liaodong_province_winner
-        }
-    }
-
     option = {
         name = yellow_peril_event.2.a
         default_option = yes
