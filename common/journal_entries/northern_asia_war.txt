@@ -14,6 +14,12 @@
     }
 
     on_complete = {
+        c:CHI = {
+            set_variable = {
+                name = northern_asia_war_winner
+            }
+        }
+
         trigger_event = {
             id = northern_asia_war_event.1
         }

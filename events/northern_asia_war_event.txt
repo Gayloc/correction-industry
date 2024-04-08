@@ -19,6 +19,34 @@ northern_asia_war_event.1 = {
     option = {
         name = northern_asia_war_event.1.a
     }
+
+    option = {
+        name = northern_asia_war_event.1.b
+        trigger = {
+            c:CHI = {
+                NOT = {
+                    has_variable = rebuild_liaodong_province_winner
+                }
+            }
+        }
+
+        s:STATE_KAMCHATKA = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_OKHOTSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_CHUKOTKA = {
+            add_claim = c:CHI
+        }
+
+        add_journal_entry = {
+            type = rebuild_liaodong_province
+            target = c:CHI
+        }
+    }
 }
 
 northern_asia_war_event.2 = {

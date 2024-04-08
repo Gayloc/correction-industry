@@ -1,7 +1,7 @@
 ﻿namespace = rebuild_liaodong_province_event
 
 rebuild_liaodong_province_event.1 = {
-     type = country_event
+    type = country_event
     placement = root
 
     title = rebuild_liaodong_province_event.1.t
@@ -22,6 +22,38 @@ rebuild_liaodong_province_event.1 = {
 
     option = {
         name = rebuild_liaodong_province_event.1.b
+        trigger = {
+            c:CHI = {
+                NOT = {
+                    has_variable = northern_asia_war_winner
+                }
+            }
+        }
+
+        s:STATE_OB = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_TOBOLSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_URAL = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_AKMOLINSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_SEMIRECHE = {
+            add_claim = c:CHI
+        }
+
+        add_journal_entry = {
+            type = northern_asia_war
+            target = c:CHI
+        }
     }
 }
 

@@ -37,7 +37,6 @@ rebuild_lingbei_province_event.1 = {
 			value = -50
 		}
 
-
         s:STATE_TRANS_BAIKAL = {
             add_claim = c:CHI
         }
@@ -102,6 +101,32 @@ rebuild_lingbei_province_event.2 = {
 
     option = {
 		name = rebuild_lingbei_province_event.2.c
+
+        s:STATE_OB = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_TOBOLSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_URAL = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_AKMOLINSK = {
+            add_claim = c:CHI
+        }
+
+        s:STATE_SEMIRECHE = {
+            add_claim = c:CHI
+        }
+
+        add_journal_entry = {
+            type = northern_asia_war
+            target = c:CHI
+        }
+
 	}
 }
 

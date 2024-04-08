@@ -12,6 +12,12 @@
     }
 
     on_complete = {
+        c:CHI = {
+            set_variable = {
+                name = rebuild_liaodong_province_winner
+            }
+        }
+
         trigger_event = {
             id = rebuild_liaodong_province_event.1
         }

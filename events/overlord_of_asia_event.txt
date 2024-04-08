@@ -1,0 +1,27 @@
+﻿overlord_of_asia_event = {
+    type = country_event
+    placement = c:CHI
+
+    title = northern_asia_war_event.1.t
+    desc = northern_asia_war_event.1.d
+    flavor = northern_asia_war_event.1.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    trigger = {
+        c:CHI = {
+            has_variable = northern_asia_war_winner
+            has_variable = rebuild_liaodong_province_winner
+        }
+    }
+
+    option = {
+        name = northern_asia_war_event.1.a
+    }
+}
