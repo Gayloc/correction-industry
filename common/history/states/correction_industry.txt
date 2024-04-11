@@ -1,0 +1,15 @@
+﻿STATES = {
+    s:STATE_SAKHALIN = {
+		create_state = {
+			country = c:SKH
+			owned_provinces = { xF1B27F x041FF2 x1CAAE0 x9628A0 x4ED0E9 x768145 xDFA060 x1B4E8D x1CA52F xC3C06E xEAFA0A x22C190 x7608FE xB8277E x503660 x02BAB7 x3405B2 x2010C0 xA5E421 xBE16C2 x2492AA xD0294D xF15B61 x47B65C x9E3A0A xE99CEA }
+		}
+		
+		add_homeland = cu:siberian
+		add_homeland = cu:ainu
+
+		add_claim = c:JAP
+		add_claim = c:RUS
+		add_claim = c:CHI
+	}
+}
