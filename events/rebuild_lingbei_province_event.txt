@@ -78,6 +78,13 @@ rebuild_lingbei_province_event.2 = {
     option = {
 		name = rebuild_lingbei_province_event.2.a
 		default_option = yes
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.3
+			    popup = yes
+		    }
+        }
 	}
 
     option = {
@@ -149,6 +156,13 @@ rebuild_lingbei_province_event.3 = {
     option = {
 		name = rebuild_lingbei_province_event.3.a
 		default_option = yes
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.2
+			    popup = yes
+		    }
+        }
 
         s:STATE_TRANS_BAIKAL = {
             remove_claim = c:CHI

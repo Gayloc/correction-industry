@@ -1,0 +1,5 @@
+﻿overlord_of_aisa_modifier = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    unit_offense_mult = 0.2
+	unit_defense_mult = 0.2
+}

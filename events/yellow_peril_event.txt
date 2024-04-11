@@ -47,3 +47,26 @@ yellow_peril_event.2 = {
         remove_modifier = yellow_peril_modifier
     }
 }
+
+yellow_peril_event.3 = {
+    type = country_event
+    placement = root
+
+    title = yellow_peril_event.3.t
+    desc = yellow_peril_event.3.d
+    flavor = yellow_peril_event.3.f
+
+    event_image = {
+        video = "europenorthamerica_springtime_of_nations"
+    }
+
+    icon = "gfx/interface/icons/event_icons/event_default.dds"
+	on_opened_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	duration = 3
+
+    option = {
+        name = yellow_peril_event.3.a
+        default_option = yes
+        remove_modifier = yellow_peril_modifier
+    }
+}

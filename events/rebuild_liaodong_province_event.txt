@@ -18,6 +18,21 @@ rebuild_liaodong_province_event.1 = {
 
     option = {
         name = rebuild_liaodong_province_event.1.a
+
+        trigger = {
+            c:CHI = {
+                NOT = {
+                    has_variable = northern_asia_war_winner
+                }
+            }
+        }
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.3
+			    popup = yes
+		    }
+        }
     }
 
     option = {
@@ -55,6 +70,23 @@ rebuild_liaodong_province_event.1 = {
             target = c:CHI
         }
     }
+
+    option = {
+        name = rebuild_liaodong_province_event.1.c
+        trigger = {
+            c:CHI = {
+                has_variable = northern_asia_war_winner
+                has_variable = rebuild_liaodong_province_winner
+            }
+        }
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.3
+			    popup = yes
+		    }
+        }
+    }
 }
 
 rebuild_liaodong_province_event.2 = {
@@ -75,6 +107,13 @@ rebuild_liaodong_province_event.2 = {
 
     option = {
         name = rebuild_liaodong_province_event.2.a
+
+        c:RUS = {
+            trigger_event = {
+			    id = yellow_peril_event.2
+			    popup = yes
+		    }
+        }
 
         s:STATE_KAMCHATKA = {
             remove_claim = c:CHI
