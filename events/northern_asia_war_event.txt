@@ -72,6 +72,11 @@ northern_asia_war_event.1 = {
             }
         }
 
+        add_modifier = {
+            name = overlord_of_aisa_modifier
+            months = 120
+        }
+
         c:RUS = {
             trigger_event = {
 			    id = yellow_peril_event.3
